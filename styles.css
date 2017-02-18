@@ -1,0 +1,15 @@
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	width: 50%;
+	margin: 10px auto;
+}
+
+button {
+	height: 30px;
+	width: 50px;
+	margin: 10px auto;
+}
