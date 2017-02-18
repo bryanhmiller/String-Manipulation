@@ -13,3 +13,7 @@ button {
 	width: 50px;
 	margin: 10px auto;
 }
+
+#results {
+	text-align: center;
+}

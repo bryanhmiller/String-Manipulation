@@ -4,13 +4,16 @@ var testString = "";
 
 function myUserInput() {
 	testString = document.getElementById("userInput").value;
+	console.log(testString);
 }
 
 
 // 4. Implement the logic in the reversal function that reverses the order of the characters in the 
 // string, and outputs the result in the DOM, below the text input.
 function reversal() {
-	document.getElementById("results").innerHTML = "<h1>" + convertedTemp + "</h1>";
+	var reversedResult = testString.split("").reverse().join("");
+	console.log(reversedResult);
+	document.getElementById("results").innerHTML = "<h1>" + reversedResult + "</h1>";
 
 }
 
