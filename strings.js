@@ -10,17 +10,19 @@ function myUserInput() {
 
 // 4. Implement the logic in the reversal function that reverses the order of the characters in the 
 // string, and outputs the result in the DOM, below the text input.
+
 function reversal() {
 	var reversedResult = testString.split("").reverse().join("");
 	console.log(reversedResult);
 	document.getElementById("results").innerHTML = "<h1>" + reversedResult + "</h1>";
-
 }
 
 // 5. Implement the logic in the alphabits function that return the characters in alphabetical order, 
 // and outputs the result in the DOM, below the text input.
 function alphabits() {
-
+	var alphabetizedResult = testString.split("").sort().join("");
+	console.log(alphabetizedResult);
+	document.getElementById("results").innerHTML += "<h1>" + alphabetizedResult + "</h1>";
 }
 
 // 6. Implement the logic in the palindrome function that determine whether the string is a palindrome. 
